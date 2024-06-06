@@ -1,0 +1,28 @@
+
+
+
+header {
+    z-index: 100;
+}
+
+
+.description {
+   height: 25px;
+   overflow: hidden;
+   transition: height .3s ease-in .3s;
+}
+
+.description:hover {
+    height: 80px;
+}
+
+
+
+.imagen-fondo {
+    background:  url(../img/todos-electrodomesticos.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+    color: white;
+    margin-top: -20px; /* Ajusta este valor según sea necesario */
+  }
